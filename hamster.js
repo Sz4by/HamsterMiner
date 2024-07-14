@@ -13,7 +13,7 @@ async function clickWithAPI(authorization) {
             timestamp: Date.now()
         };
 
-        const response = await axios.post('https://api.hamsterkombat.io/clicker/tap', payload, {
+        const response = await axios.post('https://api.hamsterkombatgame.io/clicker/tap', payload, {
             headers: {
                 'Authorization': `Bearer ${authorization}`,
                 'Content-Type': 'application/json'
